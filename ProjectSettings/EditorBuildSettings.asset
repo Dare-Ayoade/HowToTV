@@ -29,9 +29,12 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/VR_Scenes/Scene_4.unity
     guid: 5d0071304944649c1bd193162bb50bda
-  - enabled: 1
+  - enabled: 0
     path: Assets/VR_Scenes/Scene_5.unity
     guid: 82e6aaa86555a43c89924ad23ca39cb3
+  - enabled: 1
+    path: Assets/How.To.TV.unity
+    guid: a0a3d02b798664f2489e22e4420b1031
   m_configObjects:
     com.unity.input.settings.actions: {fileID: -944628639613478452, guid: 052faaac586de48259a63d0c4782560b, type: 3}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 1efb89492bc64431ebb738ce1e9a6714, type: 2}

@@ -1,0 +1,137 @@
+﻿#include "pch-c.h"
+
+
+#include "codegen/il2cpp-codegen-metadata.h"
+
+
+
+
+
+extern void SimpleKinematicTagCollisionSpawner_Awake_mC4215E3955D4CFD45932AE8D1F03D4CA07F2D8D0 (void);
+extern void SimpleKinematicTagCollisionSpawner_FixedUpdate_m2A47E6BC71A66C09561F67A2850E674086C5B500 (void);
+extern void SimpleKinematicTagCollisionSpawner_SetupIsValid_mA5B1DDC477B099CB5B419EAEABB80C5EC5E6F226 (void);
+extern void SimpleKinematicTagCollisionSpawner_TryGetContactPoint_m4FB8D7EF52CEBFECA216C3D36938D1668776D4BA (void);
+extern void SimpleKinematicTagCollisionSpawner_SpawnPrefab_m880D68C7C0FBEFC1212C4470477917D843A73F91 (void);
+extern void SimpleKinematicTagCollisionSpawner__ctor_mB5751211F81618B6F30A0A978CDA170380B084CF (void);
+extern void TrainingStepManager_Start_m3174D5819F08CEA99C3796E10B731B1D278E745D (void);
+extern void TrainingStepManager_StartStep1_mE14236A4B275E3500A86162C21AAACA1D67A29C3 (void);
+extern void TrainingStepManager_StartStep2_mF0C14D3B1DA6BE2010F00D64700702832875ED66 (void);
+extern void TrainingStepManager_StartStep3_m627F4C6664F91BBA6FADFB8051F8D420E96DFE75 (void);
+extern void TrainingStepManager_StartStep4_mC36785AB7C96A6FCD858E8265E055EDEF45B6BD1 (void);
+extern void TrainingStepManager_ShowSign_mDB383768CFA88B91FC022669154ED47CAA466832 (void);
+extern void TrainingStepManager_HideSign_m8B019B7BB224464CBF4B7B508B3452BC1FCB37F2 (void);
+extern void TrainingStepManager__ctor_m0F4D2C8612D9A12621FFAF362B21111BAE87E179 (void);
+extern void Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6 (void);
+extern void Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B (void);
+extern void MyIntEvent__ctor_m4B54F72A712287CA8CAF08754E4A79050512F05A (void);
+extern void Trigger_OnTriggerEnter_mC7FFB01DF557E56C681B1F234A512EA9CD4D25F8 (void);
+extern void Trigger_OnTriggerStays_mD96CD77D6171167329655DACFC8EB923DFF3D4EC (void);
+extern void Trigger_OnTriggerExit_mBFFB9E983D56B2ECDF9418EBC93975C11CD29D53 (void);
+extern void Trigger_Awake_mCC1EAF00AC1B27FED7AD2C2B0B52B0C534588AC3 (void);
+extern void Trigger__ctor_mB2B5CCC97EBE7BF658CA4ABA1BB9A02C964044F4 (void);
+extern void UnityAction__ctor_m5E91B978D2075D21A47651BBEFDA7C2EDD5270ED (void);
+extern void ActionAttribute__ctor_mCA9B0F35B162179707D1D4BE1A25BF0B2D10103A (void);
+extern void ExposableMonobehaviour__ctor_m943032B454FAF561F81B9BD5FF8C60D4B38B061C (void);
+extern void ExposePropertyAttribute__ctor_m7A101B6A9866F268947B4629D1B3B1EF042A0D47 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033 (void);
+extern void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1 (void);
+static Il2CppMethodPointer s_methodPointers[30] = 
+{
+	SimpleKinematicTagCollisionSpawner_Awake_mC4215E3955D4CFD45932AE8D1F03D4CA07F2D8D0,
+	SimpleKinematicTagCollisionSpawner_FixedUpdate_m2A47E6BC71A66C09561F67A2850E674086C5B500,
+	SimpleKinematicTagCollisionSpawner_SetupIsValid_mA5B1DDC477B099CB5B419EAEABB80C5EC5E6F226,
+	SimpleKinematicTagCollisionSpawner_TryGetContactPoint_m4FB8D7EF52CEBFECA216C3D36938D1668776D4BA,
+	SimpleKinematicTagCollisionSpawner_SpawnPrefab_m880D68C7C0FBEFC1212C4470477917D843A73F91,
+	SimpleKinematicTagCollisionSpawner__ctor_mB5751211F81618B6F30A0A978CDA170380B084CF,
+	TrainingStepManager_Start_m3174D5819F08CEA99C3796E10B731B1D278E745D,
+	TrainingStepManager_StartStep1_mE14236A4B275E3500A86162C21AAACA1D67A29C3,
+	TrainingStepManager_StartStep2_mF0C14D3B1DA6BE2010F00D64700702832875ED66,
+	TrainingStepManager_StartStep3_m627F4C6664F91BBA6FADFB8051F8D420E96DFE75,
+	TrainingStepManager_StartStep4_mC36785AB7C96A6FCD858E8265E055EDEF45B6BD1,
+	TrainingStepManager_ShowSign_mDB383768CFA88B91FC022669154ED47CAA466832,
+	TrainingStepManager_HideSign_m8B019B7BB224464CBF4B7B508B3452BC1FCB37F2,
+	TrainingStepManager__ctor_m0F4D2C8612D9A12621FFAF362B21111BAE87E179,
+	Readme__ctor_m69C325C4C171DCB0312B646A9034AA91EA8C39C6,
+	Section__ctor_m5F732533E4DFC0167D965E5F5DB332E46055399B,
+	MyIntEvent__ctor_m4B54F72A712287CA8CAF08754E4A79050512F05A,
+	Trigger_OnTriggerEnter_mC7FFB01DF557E56C681B1F234A512EA9CD4D25F8,
+	Trigger_OnTriggerStays_mD96CD77D6171167329655DACFC8EB923DFF3D4EC,
+	Trigger_OnTriggerExit_mBFFB9E983D56B2ECDF9418EBC93975C11CD29D53,
+	Trigger_Awake_mCC1EAF00AC1B27FED7AD2C2B0B52B0C534588AC3,
+	Trigger__ctor_mB2B5CCC97EBE7BF658CA4ABA1BB9A02C964044F4,
+	UnityAction__ctor_m5E91B978D2075D21A47651BBEFDA7C2EDD5270ED,
+	NULL,
+	NULL,
+	ActionAttribute__ctor_mCA9B0F35B162179707D1D4BE1A25BF0B2D10103A,
+	ExposableMonobehaviour__ctor_m943032B454FAF561F81B9BD5FF8C60D4B38B061C,
+	ExposePropertyAttribute__ctor_m7A101B6A9866F268947B4629D1B3B1EF042A0D47,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBEB95BEB954BB63E9710BBC7AD5E78C4CB0A0033,
+	UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mE70FB23ACC1EA12ABC948AA22C2E78B2D0AA39B1,
+};
+static const int32_t s_InvokerIndices[30] = 
+{
+	20782,
+	20782,
+	20296,
+	11140,
+	16101,
+	20782,
+	20782,
+	20782,
+	20782,
+	20782,
+	20782,
+	15878,
+	15878,
+	20782,
+	20782,
+	20782,
+	20782,
+	15878,
+	15878,
+	15878,
+	20782,
+	20782,
+	20782,
+	-1,
+	-1,
+	8281,
+	20782,
+	20782,
+	34129,
+	20782,
+};
+static const Il2CppTokenRangePair s_rgctxIndices[1] = 
+{
+	{ 0x02000009, { 0, 3 } },
+};
+extern const uint32_t g_rgctx_Action_1_t652F7A9C1A39475F49886A46C84C484DEF340BC1;
+extern const uint32_t g_rgctx_Action_1_tC5761343E67CE371331D23369154CFAABE0F8128;
+extern const uint32_t g_rgctx_Action_1_t652F7A9C1A39475F49886A46C84C484DEF340BC1;
+static const Il2CppRGCTXDefinition s_rgctxValues[3] = 
+{
+	{ (Il2CppRGCTXDataType)1, (const void *)&g_rgctx_Action_1_t652F7A9C1A39475F49886A46C84C484DEF340BC1 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_tC5761343E67CE371331D23369154CFAABE0F8128 },
+	{ (Il2CppRGCTXDataType)2, (const void *)&g_rgctx_Action_1_t652F7A9C1A39475F49886A46C84C484DEF340BC1 },
+};
+IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
+const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
+{
+	"Assembly-CSharp.dll",
+	30,
+	s_methodPointers,
+	0,
+	NULL,
+	s_InvokerIndices,
+	0,
+	NULL,
+	1,
+	s_rgctxIndices,
+	3,
+	s_rgctxValues,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+	NULL,
+};
